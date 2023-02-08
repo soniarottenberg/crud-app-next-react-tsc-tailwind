@@ -20,3 +20,4 @@ Next.js
 React.js
 Typescript
 Tailwind css
+# crud-app-next-react-tsc-tailwind
