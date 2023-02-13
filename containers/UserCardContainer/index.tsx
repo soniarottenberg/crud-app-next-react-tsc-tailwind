@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
-import Title from "../../commons/Title";
-import UserCard from "../../components/UserCard";
-import SearchBar from "../../components/SearchBar";
-import AddUserButton from "../../components/AddUserButton";
+import Title from "commons/Title";
+import UserCard from "components/UserCard";
+import SearchBar from "components/SearchBar";
+import AddUserButton from "components/AddUserButton";
 import { UserCardContainerProps } from "tsc/interfaces";
 import { User } from "tsc/types";
 

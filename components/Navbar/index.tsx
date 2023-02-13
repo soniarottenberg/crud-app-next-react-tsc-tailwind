@@ -1,11 +1,11 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
-import Square from "../../commons/Square";
-import Clients from "../../public/clients.svg";
-import User from "../../public/user.svg";
-import Settings from "../../public/settings.svg";
-import Logout from "../../public/logout.svg";
-import Menu from "../../public/menu.png";
+import Square from "commons/Square";
+import Clients from "public/clients.svg";
+import User from "public/user.svg";
+import Settings from "public/settings.svg";
+import Logout from "/public/logout.svg";
+import Menu from "public/menu.png";
 
 const Navbar = () => {
   const [activeIcon, setActiveIcon] = useState("user");

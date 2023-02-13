@@ -1,8 +1,8 @@
 import { useCallback, useState } from "react";
 import { FormProps } from "tsc/interfaces";
 import SelectInput from "commons/SelectInput";
-import TextInput from "../../commons/TextInput";
-import { Role } from "../../tsc/enums";
+import TextInput from "commons/TextInput";
+import { Role } from "tsc/enums";
 import Arrow from "commons/Arrow";
 import Title from "commons/Title";
 import Button from "commons/Button";

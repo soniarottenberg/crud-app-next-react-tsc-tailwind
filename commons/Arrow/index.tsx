@@ -1,4 +1,4 @@
-import ArrowIcon from "../../public/arrowRight.svg";
+import ArrowIcon from "public/arrowRight.svg";
 import Image from "next/image";
 import { ArrowProps } from "tsc/interfaces";
 

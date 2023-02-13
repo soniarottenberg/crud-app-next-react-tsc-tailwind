@@ -2,9 +2,9 @@ import { NextPage } from "next";
 import { useState } from "react";
 import { Props } from "tsc/interfaces";
 import Head from "next/head";
-import Navbar from "../../components/Navbar";
-import UserCardContainer from "../../containers/UserCardContainer";
-import Form from "../../components/Form";
+import Navbar from "components/Navbar";
+import UserCardContainer from "containers/UserCardContainer";
+import Form from "components/Form";
 
 const Home: NextPage<Props> = ({ data }) => {
   const [isEditingUser, setIsEditingUser] = useState<boolean>(false);
